@@ -46,6 +46,10 @@ public class CurrencyExchange {
         return conversionMultiple;
     }
 
+    public String getEnvironment() {
+        return environment;
+    }
+
     public void setId(long id) {
         this.id = id;
     }
@@ -56,6 +60,10 @@ public class CurrencyExchange {
 
     public void setTo(String to) {
         this.to = to;
+    }
+
+    public void setEnvironment(String environment) {
+        this.environment = environment;
     }
 
     public void setConversionMultiple(BigDecimal conversionMultiple) {
