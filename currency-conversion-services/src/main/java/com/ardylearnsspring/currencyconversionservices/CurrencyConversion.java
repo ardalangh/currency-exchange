@@ -3,6 +3,7 @@ package com.ardylearnsspring.currencyconversionservices;
 
 import java.math.BigDecimal;
 
+
 public class CurrencyConversion {
     private Long id;
     private String from;
